@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#25100c">
+  <meta name="description" content="Revivalhub International Port Harcourt partnership form.">
+  <title>Partnership | Revivalhub International Port Harcourt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="page-hero">
+    <div class="hero-photo" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <nav class="topbar" aria-label="Main navigation">
+      <a class="logo-link" href="#partnership-form" aria-label="Revivalhub International Port Harcourt partnership form">
+        <img class="logo" src="revivalhub-port-harcourt-logo.png" alt="Revivalhub International Port Harcourt">
+      </a>
+      <a class="menu-button" href="#partnership-form" aria-label="Go to partnership form"><span></span><span></span><span></span></a>
+    </nav>
+    <div class="hero-title">
+      <h1>PARTNERSHIP</h1>
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://revivalhubinternational.org/">Home</a><span>https://revivalhubinternational.org/</span><strong>Partnership</strong></nav>
+    </div>
+  </header>
+
+  <main class="form-section" id="partnership-form">
+    <div class="form-intro"><p>PARTNERSHIP</p><h2>REVIVALHUB <span>PARTNERSHIP FORM</span></h2></div>
+    <form class="partner-form" id="partner-form">
+      <label class="field">Full Name<input name="fullName" type="text" autocomplete="name" placeholder="Full Name" required></label>
+      <label class="field">Email<input name="email" type="email" autocomplete="email" placeholder="Email Address" required></label>
+      <label class="field">Location<input name="location" type="text" autocomplete="address-level2" placeholder="Location" required></label>
+      <label class="field">Partnership Status<select name="status" required><option value="I am a returning/current partner" selected>I am a returning/current partner</option><option value="I am a new partner joining this vision">I am a new partner joining this vision</option></select></label>
+      <label class="field">How long have you been partnering with us?<select name="duration" required><option selected>3-5 years</option><option>2-3 years</option><option>Less than a year</option><option>Few Months Now</option><option>Just now</option></select></label>
+      <label class="field">Currency<select name="currency" required><option selected>Naira</option><option>Dollars</option><option>Pounds</option><option>Euro</option><option>Cryptocurrency</option></select></label>
+      <label class="field">Partnership Amount<input name="amount" type="number" min="0" step="any" placeholder="Partnership Amount" required></label>
+      <label class="field">Frequency of Partnership<select name="frequency" required><option selected>Weekly</option><option>Monthly</option><option>Quarterly</option><option>Annually</option></select></label>
+      <label class="field">Mode of Payment<select name="paymentMode" required><option selected>Bank Transfer</option><option>Online Payment</option><option>Cash</option></select></label>
+      <label class="field field-wide">Prayer Requests<textarea name="prayerRequests" rows="4" placeholder="Prayer Requests"></textarea></label>
+      <label class="field field-wide">Feedback (Comment/Recommendation)<textarea name="feedback" rows="4" placeholder="Feedback (Comment/Recommendation)"></textarea></label>
+      <label class="consent"><input type="checkbox" name="consent" required><span>I confirm that the information provided is accurate and that I am voluntarily expressing my intention to partner with Revivalhub Ministries International in accordance to my stated commitment. I consent to the collection and use of the information I provide in this form for church partnership administration and related communications.</span></label>
+      <button class="submit-button" type="submit">SUBMIT MESSAGE <span aria-hidden="true">›</span></button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer class="page-footer"><img src="revivalhub-port-harcourt-logo.png" alt="Revivalhub International Port Harcourt"><p>Revivalhub International · Port Harcourt</p><span>PARTNERSHIP</span></footer>
+</body>
+</html>
